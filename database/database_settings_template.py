@@ -4,5 +4,5 @@ DATABASE_CONFIG = {
 	'user': 'your_user',
 	'password': 'your_password',
 	'port': 3306,
-	'database': 'nichijou'
+	'database': 'nichijou_anime'
 }
