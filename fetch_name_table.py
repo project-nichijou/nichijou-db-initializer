@@ -4,7 +4,7 @@ import json
 import requests
 
 
-data = requests.get('https://cdn.jsdelivr.net/gh/project-nichijou/nichijou-db-essential@latest/data.json')
+data = requests.get('https://cdn.jsdelivr.net/gh/project-nichijou/nichijou.server.database.essential@latest/data.json')
 data = json.loads(data.text)['data']
 
 database = NichijouDatabase()
